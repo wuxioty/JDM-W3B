@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.white{
+    color: white;
+}
+
+.imagesm{
+ width: 7.5vw;
+ border-radius: 10px;
+}
+
+.libre-barcode-39-extended-text-regular {
+    font-family: "Libre Barcode 39 Extended Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lxgw-wenkai-tc-regular {
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.m-plus-code-latin {
+  font-family: "M PLUS Code Latin", monospace;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lexend-zetta {
+  font-family: "Lexend Zetta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.faster-one-regular {
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    gap: 30px
+}
+
+.grid2{
+    display: grid;
+    grid-column: span 3;
+}
+
+.grid3{
+    grid-column: span 1;
+}
+
+.grid4{
+    display: grid;
+    grid-column: span 3;
+}
+
+.fullwidth{
+    width: 100vw;
+}
+
+.fullheight{
+    min-height: 100vh;
+}
+
+.span1{
+    grid-column: span 1;
+}
+
+.span2{
+    grid-column: span 2;
+}
+
+.span3{
+    grid-column: span 3;
+}
+
+.span4{
+    grid-column: span 4;
+}
+
+.span5{
+    grid-column: span 5;
+}
+
+.span6{
+    grid-column: span 6;
+}
+
+.span7{
+    grid-column: span 7;
+}
+
+.span8{
+    grid-column: span 8;
+}
+
+.span9{
+    grid-column: span 9;
+}
+
+.span10{
+    grid-column: span 10;
+}
+
+.span11{
+    grid-column: span 11;
+}
+
+.span12{
+    grid-column: span 12;
+}
